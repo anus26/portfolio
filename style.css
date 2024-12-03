@@ -7,7 +7,7 @@ body{
 
 
 .navbar{
-    position:-webkit-sticky;
+    position:relative;
 
 }
 .navbar-nav{
@@ -36,10 +36,12 @@ body{
     width: 20%;
     height: auto; /* Maintains aspect ratio */
     object-fit: cover; /* Ensures the image covers the container */
-    position: absolute;
-    top: 0%;
-    left: 100px;
-    z-index: 0
+    position: relative;
+    top: 20%;
+    left: 800px;
+    
+    z-index: 0;
+    
     
 }
 
@@ -53,6 +55,15 @@ body{
     overflow: hidden;
     height: 100vh;
 }
+.background  img{
+    padding: 20px;
+    width: 30%;
+    height: 50%;
+    margin-right: 70%;
+    margin-top: 0;
+    margin-bottom: 30%;
+    
+}
 
 .text-overlay {
     color: white;
@@ -61,15 +72,22 @@ body{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     z-index: 1;
     position: absolute;
-    text-align: center;
+    margin-right: 30%;
+    margin-bottom: 20%;
 
+    
 
 }
-
+ 
 h1 {
     /* font-size: 2rem; Adjusts font size
-    color: #333; Change text color for better contrast */
-    margin: 0; /* Adds spacing between headings */
+    color: #333; Change text color for better contrast */ /* Adds spacing between headings */
+    
+  /* margin-right: 120%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: relative; */
 
     
 }
@@ -107,3 +125,4 @@ h1 {
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
 }
+
