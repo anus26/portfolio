@@ -27,19 +27,35 @@ body {
 
   }
   
-  .navbar-brand {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
   
   .nav-link {
     color: white;
     font-size: 1rem;
+    transition: color 0.3s ease; 
+  }
+  .nav-link:hover {
+    color:blur;
+  }
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  h4 {
+    display: flex;
+    gap: 20px;
   }
   
-  .nav-link:hover {
-    color: #f4a261;
+  h4 a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
   }
+  
+  h4 a:hover {
+    color: #00bcd4; /* Hover color for social icons */
+  }
+  
   
   /* Background Image Section */
   .background {
@@ -72,6 +88,39 @@ body {
     z-index: 2; /* Ensure it's above the image */
     margin-bottom: -20px; /* Slightly overlaps the image */
   }
+  .intro{
+    color: white;
+  }
+  .card{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+  }
+  .card-header{
+    display: flex;
+    justify-content: center;
+  
+
+  }
+  .card-body{
+    display: flex;
+    justify-content: center;
+  }
+  .footer{
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+  }
+  h4 a{
+    display: wrap;
+    justify-content: center;
+    font-size: 30px;
+    text-decoration: none;
+    gap: 45px;
+    
+  }
+ 
   
   /* Responsive Media Queries */
   
@@ -85,6 +134,7 @@ body {
       font-size: 2rem;
     }
   }
+
   
   /* Small Screens (Mobile, below 768px) */
   @media (max-width: 768px) {
