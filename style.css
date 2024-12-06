@@ -120,6 +120,17 @@ body {
     gap: 45px;
     
   }
+  #know{
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  #personal{
+     color: white;
+     font-size: 25px;
+   margin-left: 300px;
+  }
  
   
   /* Responsive Media Queries */
