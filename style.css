@@ -1,7 +1,7 @@
 /* Body background */
 /* Body background */
 body {
-    background-image: url('./asset/images/360_F_795154858_Zphy7ANnyuX1SUblhyNl57Ij5KhaPMqR.jpg');
+    background-image: url('./asset/images/4.avif');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -120,17 +120,42 @@ body {
     gap: 45px;
     
   }
+  .row{
+    position:relative;
+  
+    
+  }
+ 
   #know{
-    margin-top: 50px;
+    margin-left: 300px;
     color: white;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
+    position: fixed;
+
+    
   }
   #personal{
      color: white;
      font-size: 25px;
-   margin-left: 300px;
+   margin-left: 150px;
+   margin-top: 200px;
+   position:fixed;
   }
+  .images{
+    margin-top: 28px;
+    position: fixed;
+    margin-top: 200px;
+    margin-left: 100px;
+    width: 20%;
+    
+  }
+  .container{
+    margin-top: 500px
+    ;
+  }
+  
  
   
   /* Responsive Media Queries */
@@ -143,6 +168,7 @@ body {
   
     .text-overlay {
       font-size: 2rem;
+      
     }
   }
 
