@@ -120,44 +120,35 @@ body {
     gap: 45px;
     
   }
-  .row{
-    position:relative;
-  
-    
-  }
+ /* about html css */
  
-  #know{
-    margin-left: 300px;
+  #know {
     color: white;
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    position: fixed;
-
-    
-  }
-  #personal{
-     color: white;
-     font-size: 25px;
-   margin-left: 150px;
-   margin-top: 200px;
-   position:fixed;
-  }
-  .images{
-    margin-top: 28px;
-    position: fixed;
-    margin-top: 200px;
-    margin-left: 100px;
-    width: 20%;
-    
-  }
-  .container{
-    margin-top: 500px
-    ;
+    margin-bottom: 20px;
   }
   
- 
+  #personal {
+    color: white;
+    font-size: 18px;
+  }
   
+  .images {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 15px;
+  }
+  
+  .col i {
+    font-size: 44px;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .col i:hover {
+    color: #ffc107; /* Change color to warning yellow on hover */
+  }
+    
   /* Responsive Media Queries */
   
   /* Medium Screens (Tablets, 768px - 1024px) */
