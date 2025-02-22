@@ -11,6 +11,8 @@ import { FaBootstrap } from "react-icons/fa";
 import { SiShadcnui } from "react-icons/si";
 import { SiMaterialdesign } from "react-icons/si";
 import SingleSkills from './SingleSkills';
+import { DiVim } from 'react-icons/di';
+
 const skills=[
     {
         skill:"HTML",
@@ -61,16 +63,20 @@ const skills=[
 
 ]
 
-const AllSkills = () => {
+const AllSkillSM = () => {
   return (
-    <div>
-      <div className="flex items-center justify-center relative gap-2 max-w-[1200px] mx-auto">
-    {skills.map((item,index)=>{
-        return <SingleSkills key={index} text={item.skill}  imgSvg={<item.icon/>}/>
-})}
-</div>
-    </div>
+    <div className='grid md:grid-cols-4 sm:grid-cols-2 gap-12 my-12'>
+
+        {skills.map((item,index)=>{
+
+            return <div  
+            key={index} className='flex  flex-col items-center'> 
+            <item.icon className='text-7xl text-orange'/>
+            <p className='text-center mt-4  text-white'>{item.skill}</p></div>
+        })
+        
+        }</div>
   )
 }
 
-export default AllSkills
+export default AllSkillSM

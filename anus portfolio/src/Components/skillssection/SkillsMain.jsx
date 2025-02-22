@@ -1,6 +1,7 @@
 import React from 'react'
 import SkillsText from './SkillsText'
 import AllSkills from './AllSkills'
+import AllSkillSM from './AllSkillSM'
 
 const SkillsMain = () => {
   return (
@@ -9,10 +10,14 @@ const SkillsMain = () => {
 
         <SkillsText/>
         </div>
-        <div className='mb-[50px]  '>
+        <div className='mb-[50px] lg:block sm:hidden '>
 
         <AllSkills/>
         </div>
+        <div className='sm:block lg:hidden'>
+            <AllSkillSM/>
+        </div>
+
     </div>
   )
 }
