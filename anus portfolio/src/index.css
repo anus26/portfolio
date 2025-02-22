@@ -5,5 +5,5 @@
 @tailwind utilities;
 
 body {
-  @apply bg-darkBrown;
+  @apply bg-darkBrown overflow-x-hidden;
 }

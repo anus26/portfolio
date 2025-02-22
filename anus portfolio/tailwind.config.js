@@ -1,4 +1,3 @@
-import { Md10K } from 'react-icons/md';
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -30,7 +29,9 @@ export default {
       darkGrey: "#3f4441",},
     extend: {
       boxShadow:{
-        cyanShadow:'0px 0px 20px 0px rgba(94,285,220,0.5)'
+        cyanShadow:'0px 0px 20px 0px rgba(94,285,220,0.5)',
+        cyanMediumShadow:'10px 10px 200px 150px rgba(94,206,220,0.5)',
+        orangeMediumShadow:'10px 10px 2000px 150px rgba(240 ,169,79,0.3)'
       },
     },
     fontFamily:{
