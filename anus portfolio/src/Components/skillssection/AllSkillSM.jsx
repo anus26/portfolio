@@ -12,6 +12,8 @@ import { SiShadcnui } from "react-icons/si";
 import { SiMaterialdesign } from "react-icons/si";
 import SingleSkills from './SingleSkills';
 import { DiVim } from 'react-icons/di';
+import {motion } from 'framer-motion'
+import { fadeIn } from '../../framerMotion/variants'
 
 const skills=[
     {
@@ -69,10 +71,14 @@ const AllSkillSM = () => {
 
         {skills.map((item,index)=>{
 
-            return <div  
+            return <motion.div 
+                         variants={fadeIn('up',0.2)}
+                             initial='hidden'
+                             whileInView='show'
+                             viewport={{once:false,amount:0}}
             key={index} className='flex  flex-col items-center'> 
             <item.icon className='text-7xl text-orange'/>
-            <p className='text-center mt-4  text-white'>{item.skill}</p></div>
+            <p className='text-center mt-4  text-white'>{item.skill}</p></motion.div>
         })
         
         }</div>

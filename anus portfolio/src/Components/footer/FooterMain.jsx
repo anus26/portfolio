@@ -5,8 +5,8 @@ import { LiaVaadin } from 'react-icons/lia'
 const links=[
     {link:"About ME",section:"about"},
     {link:"Skills",section:"skills"},
-    {link:"Experience",section:"experiencce"},
-    {link:"Projects",section:"porjects"},
+    {link:"Experience",section:"experience"},
+    {link:"Projects",section:"projects"},
     {link:"Contact",section:"contact"},
 
 

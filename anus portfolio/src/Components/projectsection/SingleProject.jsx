@@ -1,8 +1,15 @@
 import React from 'react'
 import { HiMiniArrowTopRightOnSquare } from "react-icons/hi2";
+import {motion } from 'framer-motion'
+import { fadeIn } from '../../framerMotion/variants'
 const SingleProject = ({name,year,align ,image,link}) => {
   return (
-    <div    className={`flex w-full sm:flex-col-reverse items-center gap-8 ${
+    <motion.div
+                     variants={fadeIn('up',0.2)}
+                            initial='hidden'
+                            whileInView='show'
+                            viewport={{once:false,amount:0}}
+    className={`flex w-full sm:flex-col-reverse items-center gap-8 ${
       align === "left" ? "md:flex-row" : "md:flex-row-reverse"
     } justify-end sm:flex-col`}>
         <div>
@@ -26,7 +33,7 @@ const SingleProject = ({name,year,align ,image,link}) => {
                 <img src={image} alt="project image"  className='w-full h-full'/>
         </div>
 
-    </div>
+    </motion.div>
   )
 }
 

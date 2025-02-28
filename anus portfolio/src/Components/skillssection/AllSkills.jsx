@@ -11,6 +11,8 @@ import { FaBootstrap } from "react-icons/fa";
 import { SiShadcnui } from "react-icons/si";
 import { SiMaterialdesign } from "react-icons/si";
 import SingleSkills from './SingleSkills';
+import {motion } from 'framer-motion'
+import { fadeIn } from '../../framerMotion/variants'
 const skills=[
     {
         skill:"HTML",
@@ -66,7 +68,17 @@ const AllSkills = () => {
     <div>
       <div className="flex items-center justify-center relative gap-2 max-w-[1200px] mx-auto">
     {skills.map((item,index)=>{
-        return <SingleSkills key={index} text={item.skill}  imgSvg={<item.icon/>}/>
+        return(
+        <motion.div
+            variants={fadeIn('up',`0.${index}`)}
+                initial='hidden'
+                whileInView='show'
+                viewport={{once:false,amount:0}}
+        >
+
+         <SingleSkills key={index} text={item.skill}  imgSvg={<item.icon/>}/>
+        </motion.div>
+    )
 })}
 </div>
     </div>

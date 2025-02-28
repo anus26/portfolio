@@ -1,6 +1,7 @@
 import React from 'react'
 import SingleExperience from './SingleExperience'
-
+import {motion } from 'framer-motion'
+import { fadeIn } from '../../framerMotion/variants'
 const experiences=[
     {
         job:'Front-End Developer ',
@@ -16,11 +17,16 @@ const experiences=[
 ]
 const AllExperience = () => {
   return (
-    <div fle>
+    <motion.div
+               variants={fadeIn('right',0.2)}
+                      initial='hidden'
+                      whileInView='show'
+                      viewport={{once:false,amount:0.7}}
+                       fle>
         {experiences.map((experience,index)=>{
             return<SingleExperience key={index} experience={experience}/>
         })}
-    </div>
+    </motion.div>
   )
 }
 
