@@ -33,7 +33,7 @@ const projects=[{
 
 const ProjectMain = () => {
   return (
-    <div id='projects' className='  max-w-[1200px] mx-auto px-4'>
+    <div id="projects" className="max-w-[1200px] mx-auto px-4">
      <ProjectText/>
    <div className='flex flex-col gap-20 max-w-[900px] mx-auto mt-12'>
     {projects.map((item,index)=>{

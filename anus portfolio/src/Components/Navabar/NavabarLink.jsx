@@ -1,10 +1,10 @@
 import React from 'react'
-
+import { Link } from 'react-scroll'
 const links=[
     {link:"About ME",section:"about"},
     {link:"Skills",section:"skills"},
-    {link:"Experience",section:"experiencce"},
-    {link:"Projects",section:"porjects"},
+    {link:"Experience",section:"experience"},
+    {link:"Projects",section:"projects"},
     {link:"Contact",section:"contact"},
 
 
@@ -17,7 +17,13 @@ const NavabarLink = () => {
     {links.map((link,index)=>{
         return(
             <li key={index} className='group'>
-            <a href="#" className='cursor-pointer text-white hover:text-cyan trasition-all duration-500'>{link.link}</a>
+            <Link 
+            to={link.section}
+            smooth={true}
+            spy={true}
+            duration={500}
+            offset={true}
+            className='cursor-pointer text-white hover:text-cyan trasition-all duration-500'>{link.link}</Link>
             <div className='mx-auto bg-cyan w-0 group-hover:w-full h-[1px] transition-all duration-500'></div>
             </li>
         )
