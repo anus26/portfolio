@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const AboutMEImage = () => {
+const AboutMeImage = () => {
   return (
     <div className='h-[500px] w-[300px] relative'>
   <div className='h-96 w-[300px] rounded-[100px] absolute overflow-hidden '>
@@ -12,4 +12,4 @@ const AboutMEImage = () => {
   )
 }
 
-export default AboutMEImage
+export default AboutMeImage

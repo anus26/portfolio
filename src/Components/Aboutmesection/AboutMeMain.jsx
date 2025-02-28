@@ -1,8 +1,9 @@
 import React from 'react'
-import AboutMEImage from './AboutMEImage.jsx'
+
 import AboutMeText from './AboutMeText.jsx'
 import {motion } from 'framer-motion'
 import { fadeIn } from '../../framerMotion/variants'
+import AboutMeImage from './AboutMeImage.jsx'
 const AboutMeMain = () => {
   return (
     <div id='about' className='flex md:flex-row sm:flex-col gap-12 px-12 max-w-[1100px] mx-auto mt-[100px] justify-between items-center' >
@@ -23,7 +24,7 @@ const AboutMeMain = () => {
                     viewport={{once:false,amount:0.7}}
         >
 
-        <AboutMEImage/>
+        <AboutMeImage/>
         </motion.div>
     </div>
   )
