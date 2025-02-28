@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import NavabarLogo from "../NavabarLogo";
-import NavabarLink from "./NavabarLink";
-import Navabarbtn from "./Navabarbtn";
+import NavabarLogo from "../NavabarLogo.jsx";
+import NavabarLink from "./NavabarLink.jsx";
+import Navabarbtn from "./Navabarbtn.jsx";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 const NavbarMain = () => {

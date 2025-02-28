@@ -1,9 +1,7 @@
 import React from 'react'
-import HeroPic from './HeroPic'
-import HeroText from './HeroText'
-import HeroGrandient from './HeroGrandient'
-import SubHeroSection from './SubHeroSection'
-import AboutMeMain from '../Aboutmesection/AboutMeMain'
+import HeroPic from './HeroPic.jsx'
+import HeroText from './HeroText.jsx'
+
 const HeroMain = () => {
   return (
     <div className=" pt-60 pb-6">

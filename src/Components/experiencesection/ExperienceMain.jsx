@@ -1,7 +1,7 @@
 import React from 'react'
-import ExperienceText from './ExperienceText'
-import ExperienceTop from './ExperienceTop'
-import AllExperience from './AllExperience'
+import ExperienceText from './ExperienceText.jsx'
+import ExperienceTop from './ExperienceTop.jsx'
+import AllExperience from './AllExperience.jsx'
 import {motion } from 'framer-motion'
 import { fadeIn } from '../../framerMotion/variants'
 const ExperienceMain = () => {

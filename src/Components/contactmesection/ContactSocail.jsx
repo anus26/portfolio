@@ -1,5 +1,5 @@
 import React from 'react'
-import SingleContact from './SingleContact'
+import SingleContact from './SingleContact.jsx'
 import { FaGithub } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 const ContactSocail = () => {

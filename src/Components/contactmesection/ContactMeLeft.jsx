@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactFoam from './ContactFoam'
+import ContactFoam from './ContactFoam.jsx'
 
 const ContactMeLeft = () => {
   return (

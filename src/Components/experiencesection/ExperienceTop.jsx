@@ -1,7 +1,7 @@
 import React from 'react'
-import ExperienceTopLeft from './ExperienceTopLeft'
-import ExperienceTopMiddel from './ExperienceTopMiddel'
-import ExperienceTopRight from './ExperienceTopRight'
+import ExperienceTopLeft from './ExperienceTopLeft.jsx'
+import ExperienceTopMiddel from './ExperienceTopMiddel.jsx'
+import ExperienceTopRight from './ExperienceTopRight.jsx'
 
 const ExperienceTop = () => {
   return (

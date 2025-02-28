@@ -1,5 +1,5 @@
 import React from 'react'
-import ExperienceInfo from './ExperienceInfo'
+import ExperienceInfo from './ExperienceInfo.jsx'
 
 const ExperienceTopLeft = () => {
   return (

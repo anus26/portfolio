@@ -10,8 +10,6 @@ import { SiTailwindcss } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
 import { SiShadcnui } from "react-icons/si";
 import { SiMaterialdesign } from "react-icons/si";
-import SingleSkills from './SingleSkills';
-import { DiVim } from 'react-icons/di';
 import {motion } from 'framer-motion'
 import { fadeIn } from '../../framerMotion/variants'
 

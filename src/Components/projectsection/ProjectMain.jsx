@@ -1,6 +1,6 @@
 import React from 'react'
-import ProjectText from './ProjectText'
-import SingleProject from './SingleProject'
+import ProjectText from './ProjectText.jsx'
+import SingleProject from './SingleProject.jsx'
 import {motion } from 'framer-motion'
 import { fadeIn } from '../../framerMotion/variants'
 const projects=[{

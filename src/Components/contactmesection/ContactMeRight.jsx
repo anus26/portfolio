@@ -1,6 +1,6 @@
 import React from 'react'
-import ContactInfo from './ContactInfo'
-import ContactSocail from './ContactSocail'
+import ContactInfo from './ContactInfo.jsx'
+import ContactSocail from './ContactSocail.jsx'
 
 const ContactMeRight = () => {
   return (
