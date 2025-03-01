@@ -7,28 +7,28 @@ const projects=[{
     name:'Bloging App',
     year:'Dec 2025',
     align:'right',
-    image:'../../public/images/website-img-1.jpg',
+    image:'/images/website-img-1.jpg',
     link:'#'
 },
 {
     name:'E-commerce App',
     year:'Dec 2024',
     align:'right',
-    image:'../../public/images/website-img-1.jpg',
+    image:'/images/website-img-1.jpg',
     link:'#'  
 },
 {
     name:'Weather-App',
     year:'Dec 2024',
     align:'right',
-    image:'../../public/images/website-img-1.jpg',
+    image:'/images/website-img-1.jpg',
     link:'#'
 },
 {
     name:'memes',
     year:'Dec 2025',
     align:'right',
-    image:'../../public/images/website-img-1.jpg',
+    image:'/images/website-img-1.jpg',
     link:'#'
 }
 ]
