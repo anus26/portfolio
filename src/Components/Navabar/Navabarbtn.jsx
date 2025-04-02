@@ -1,6 +1,5 @@
 import React from 'react' 
 import { FiArrowDownRight } from "react-icons/fi";
-// import   Link from 'react-router-dom';
 const Navabarbtn = () => {
   return (
     <a  
