@@ -8,14 +8,14 @@ const projects=[{
     year:'Dec 2025',
     align:'right',
     image:'/images/website-img-1.jpg',
-    link:'#'
+    link:'https://comment-react.vercel.app'
 },
 {
     name:'E-commerce App',
     year:'Dec 2024',
     align:'right',
     image:'/images/website-img-1.jpg',
-    link:'#'  
+    link:'https://vite-project-final.vercel.app'  
 },
 {
     name:'Weather-App',
@@ -47,7 +47,7 @@ const ProjectMain = () => {
       </motion.div>
    <div className='flex flex-col gap-20 max-w-[900px] mx-auto mt-12'>
     {projects.map((item,index)=>{
-        return <SingleProject key={index} name={item.name} yerar={item.year} aling={item.align} image={item.image}/>
+        return <SingleProject key={index} name={item.name} yerar={item.year} aling={item.align} image={item.image} link={item.link}/>
     })}
    </div>
     </div>
