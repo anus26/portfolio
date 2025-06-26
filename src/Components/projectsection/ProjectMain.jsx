@@ -5,31 +5,31 @@ import {motion } from 'framer-motion'
 import { fadeIn } from '../../framerMotion/variants'
 const projects=[{
     name:'Bloging App',
-    year:'Dec 2025',
+    year:'mar 2025',
     align:'right',
     image:'/images/website-img-1.jpg',
     link:'https://comment-react.vercel.app'
 },
 {
-    name:'E-commerce App',
-    year:'Dec 2024',
+    name:'Saylani Beneficiaries',
+    year:'April 2025',
     align:'right',
     image:'/images/website-img-1.jpg',
     link:'https://vite-project-final.vercel.app'  
 },
 {
-    name:'Weather-App',
-    year:'Dec 2024',
+    name:'Sockitio-app',
+    year:'May 2025',
     align:'right',
     image:'/images/website-img-1.jpg',
-    link:'#'
+    link:'https://sockitio-app.vercel.app'
 },
 {
-    name:'memes',
-    year:'Dec 2025',
+    name:'ChatSolution',
+    year:'Jun 2025',
     align:'right',
     image:'/images/website-img-1.jpg',
-    link:'#'
+    link:'chat-solution-xi.vercel.app'
 }
 ]
 
