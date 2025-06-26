@@ -29,7 +29,7 @@ const projects=[{
     year:'Jun 2025',
     align:'right',
     image:'/images/website-img-1.jpg',
-    link:'chat-solution-xi.vercel.app'
+    link:'https://chat-solution-xi.vercel.app'
 }
 ]
 
