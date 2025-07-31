@@ -25,6 +25,27 @@ const projects=[{
     link:'https://sockitio-app.vercel.app'
 },
 {
+    name:'Expense Tracker',
+    year:'July 2025',
+    align:'right',
+    image:'/images/expense.png',
+    link:'https://expense-tracker-app-azure-two.vercel.app/'
+},
+{
+    name:'Visitor',
+    year:'July 2025',
+    align:'right',
+    image:'/images/report.png',
+    link:'https://visitor-ochre.vercel.app/'
+},
+{
+    name:'Tack Manager',
+    year:'June 2025',
+    align:'right',
+    image:'/images/clipboard.png',
+    link:'https://task-manger-dashboard.vercel.app/'
+},
+{
     name:'ChatSolution',
     year:'Jun 2025',
     align:'right',
