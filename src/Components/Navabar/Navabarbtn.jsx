@@ -3,7 +3,7 @@ import { FiArrowDownRight } from "react-icons/fi";
 const Navabarbtn = () => {
   return (
     <a  
-    href="https://www.canva.com/design/DAGJ3wqHCxU/2DKYDScUBq_SxW2UOgpgOQ/view?utm_content=DAGJ3wqHCxU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h89b4de7ff7"  
+    href="https://www.canva.com/design/DAGwuvleuv0/wP1ca7gVwZgeJ048yOU2Bg/edit?utm_content=DAGwuvleuv0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"  
     target="_blank"  
     rel="noopener noreferrer"
   >
