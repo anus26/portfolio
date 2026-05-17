@@ -7,7 +7,7 @@ import { fadeIn } from '../../framerMotion/variants'
 const SkillsMain = () => {
   return (
     <div id='skills'>
-        <div className='max-w-[1300px] w-full px-4 mx-auto min-h-[400px] relative overflow-hidden sm:m-24'>
+        <div className='max-w-[1300px] w-full px-4 sm:overflow-x-hidden mx-auto min-h-[400px] relative overflow-hidden sm:m-24'>
           <motion.div
            variants={fadeIn('down',0.2)}
                   initial='hidden'

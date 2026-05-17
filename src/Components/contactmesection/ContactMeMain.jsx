@@ -7,6 +7,7 @@ const ContactMeMain = () => {
     <div id='contact'  className='w-full
 max-w-[1300px]
 mx-auto
+sm:overflow-x-hidden
 px-4 sm:px-6 lg:px-8
  items-center justify-center mt-[100px] sm:m-24'> 
         <h2 className='text-3xl sm:text-4xl md:text-6xl text-cyan mb-10 text-center'>

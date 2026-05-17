@@ -13,13 +13,13 @@ const HeroPic = () => {
       className=" h-full flex items-center justify-center "
     >
              <img
-        src="/images/Untitled design (1).png"
+        src="/images/12.png"
         alt="Anus Raza"
         className="max-h-[390px] w-auto rounded-full"
       />
 
 <div className=" absolute -z-10 flex justify-center items-center animate-pulse ">
-        <PiHexagonThin className=" md:h-[90%] sm:h-[120%] min-h-[600px] w-auto text-cyan blur-md animate-[spin_20s_linear_infinite] " />
+        <PiHexagonThin className=" md:h-[90%] sm:h-[120%] min-h-[100px] w-auto text-cyan blur-md animate-[spin_20s_linear_infinite] " />
       </div>
     </motion.div>
 

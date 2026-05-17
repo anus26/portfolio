@@ -14,10 +14,10 @@ const links=[
 
 const FooterMain = () => {
   return (
-    <div className='px-4'>
-        <div className='w-full h-[1px] bg-lightGrey mt-24 '></div>
+    <div className='px-4 ' >
+        <div className='w-full h-[1px] bg-lightGrey mt-24  '></div>
         <div className='hidden md:flex justify-between mt-4 w-full
-max-w-[1100px]
+max-w-[1300px]
 mx-auto
 px-4 sm:px-6 lg:px-8
 '>

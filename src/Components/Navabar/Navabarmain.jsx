@@ -27,6 +27,7 @@ w-full
     w-full
 
 max-w-[1300px]
+sm:overflow-x-hidden
 mx-auto
 px-4 sm:px-6 lg:px-8
 

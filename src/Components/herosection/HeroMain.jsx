@@ -9,7 +9,8 @@ const HeroMain = () => {
 flex flex-col md:flex-row
 items-center
 justify-between
-w-full max-w-[1100px]
+w-full max-w-[1300px]
+sm:overflow-x-hidden
 mx-auto
 sm:m-24
 px-4 sm:px-6 lg:px-8

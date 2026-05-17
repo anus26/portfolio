@@ -9,7 +9,7 @@ const AboutMeMain = () => {
     <div id='about' className='flex md:flex-row sm:flex-col gap-12 px-4 sm:px-6 lg:px-8 w-full
 max-w-[1300px]
 mx-auto
-
+sm:overflow-x-hidden
 
  mt-[100px] justify-between items-center  sm:m-24 ' >
 
