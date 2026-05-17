@@ -16,7 +16,11 @@ const FooterMain = () => {
   return (
     <div className='px-4'>
         <div className='w-full h-[1px] bg-lightGrey mt-24 '></div>
-        <div className=' md:flex sm:hidden justify-between mt-4 max-w-[1200px] mx-auto'>
+        <div className='hidden md:flex justify-between mt-4 w-full
+max-w-[1100px]
+mx-auto
+px-4 sm:px-6 lg:px-8
+'>
             <p className='text-3xl text-lightGrey'>
             Anus Raza
             </p>
@@ -31,7 +35,7 @@ const FooterMain = () => {
                     })}
             </ul>
             </div>
-            <p className='max-w [1200px] mx-auto text-right mt-2 mb-12 text:sm text-lightBrown'>e 2025 Anus Raza | All rights Reserved</p>
+            <p className='w-full max-w-[1100px] mx-auto text-right mt-2 mb-12 text-sm text-lightBrown'>e 2025 Anus Raza | All rights Reserved</p>
     </div>
   )
 }

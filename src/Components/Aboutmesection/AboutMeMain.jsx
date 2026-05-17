@@ -6,7 +6,12 @@ import { fadeIn } from '../../framerMotion/variants'
 import AboutMeImage from './AboutMeImage.jsx'
 const AboutMeMain = () => {
   return (
-    <div id='about' className='flex md:flex-row sm:flex-col gap-12 px-12 max-w-[1100px] mx-auto mt-[100px] justify-between items-center' >
+    <div id='about' className='flex md:flex-row sm:flex-col gap-12 px-4 sm:px-6 lg:px-8 w-full
+max-w-[1300px]
+mx-auto
+
+
+ mt-[100px] justify-between items-center  sm:m-24 ' >
 
       <motion.div
       

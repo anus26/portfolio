@@ -5,31 +5,108 @@ import Navabarbtn from "./Navabarbtn.jsx";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 const NavbarMain = () => {
+
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
-
   return (
-    <nav className="w-full fixed top-0 left-0 z-20 bg-black">
-      <div className="flex justify-between items-center max-w-[1100px] mx-auto px-6 py-4 rounded-full border border-orange">
-        {/* Logo */}
-        <NavabarLogo />
 
-        {/* Links */}
-        <div className={`${menuOpen ? "absolute top-16 left-0 w-full bg-black p-4" : "hidden"} lg:block`}>
-          <NavabarLink />
+    <nav
+      className="
+fixed
+      top-0
+      left-0
+w-full
+      z-50
+      
+    "
+    >
+
+      <div
+        className="
+    
+    w-full
+
+max-w-[1300px]
+mx-auto
+px-4 sm:px-6 lg:px-8
+
+        pt-4
+      "
+      >
+
+        {/* Navbar Box */}
+        <div
+          className="
+          h-[70px]
+          w-full
+         
+        
+             flex
+          items-center
+  
+          justify-between
+          border
+          border-orange
+          rounded-2xl sm:rounded-full
+          bg-black
+          px-4 sm:px-6
+        "
+        >
+
+          <NavabarLogo />
+
+   
+          <div className="hidden lg:flex">
+            <NavabarLink />
+          </div>
+
+    
+          <div className="hidden lg:flex">
+            <Navabarbtn />
+          </div>
+
+       
+           <button
+            onClick={() => setMenuOpen(!menuOpen)}
+            className="
+            lg:hidden
+            text-white
+            text-2xl
+          "
+          >
+            <GiHamburgerMenu />
+          </button> 
+
         </div>
 
-        {/* Buttons */}
-        <Navabarbtn />
+       
+        {menuOpen && (
+          <div
+            className="
+            lg:hidden
+            mt-3
+            w-full
+            border
+            border-orange
+            rounded-2xl
+            bg-black
+            p-6
+          "
+          >
 
-        {/* Hamburger Button */}
-        <button className="lg:hidden text-2xl p-3 border-orange rounded-full text-white" onClick={toggleMenu}>
-          <GiHamburgerMenu />
-        </button>
+            <div className="flex flex-col gap-6">
+              <NavabarLink />
+
+              <div className="flex justify-center">
+                <Navabarbtn />
+              </div>
+            </div>
+
+          </div>
+        )}
+
       </div>
+
     </nav>
   );
 };

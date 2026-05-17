@@ -9,7 +9,7 @@ const HeroText = () => {
         initial='hidden'
         whileInView='show'
         viewport={{once:false,amount:0}}
-        className='lg:text-2xl sm:text-xl uppercase text-cyan'>Front-End Web Deveplor</motion.h2>
+        className='lg:text-2xl sm:text-xl uppercase text-cyan'>Mern Stack Developer</motion.h2>
         <motion.h1 
         variants={fadeIn('right',0.2)}
         initial='hidden'
@@ -22,7 +22,7 @@ const HeroText = () => {
         whileInView='show'
         viewport={{once:false,amount:0}}
         className='text-lg mt-4 text-white'>
-            A Passionate Web Developer and Instructor <br /> with 1 years of experience
+            A Passionate Web Developer and Instructor <br /> with 2 years of experience
         </motion.p>
     </div>
   )

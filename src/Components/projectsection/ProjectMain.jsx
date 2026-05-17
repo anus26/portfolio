@@ -56,7 +56,12 @@ const projects=[{
 
 const ProjectMain = () => {
   return (
-    <div id="projects" className="max-w-[1200px] mx-auto px-4">
+    <div id="projects" className="w-full
+max-w-[1300px]
+mx-auto
+sm:m-24
+px-4 sm:px-6 lg:px-8
+">
       <motion.div
                  variants={fadeIn('up',0.2)}
                         initial='hidden'
@@ -66,7 +71,7 @@ const ProjectMain = () => {
 
      <ProjectText/>
       </motion.div>
-   <div className='flex flex-col gap-20 max-w-[900px] mx-auto mt-12'>
+   <div className='flex flex-col gap-20 w-full max-w-[1100px] mx-auto mt-12'>
     {projects.map((item,index)=>{
         return <SingleProject key={index} name={item.name} yerar={item.year} aling={item.align} image={item.image} link={item.link}/>
     })}

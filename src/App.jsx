@@ -14,11 +14,11 @@ import FooterMain from './Components/footer/FooterMain.jsx'
 
 const App = () => {
   return (
-<main className='font-body'>
+<main className='font-body '>
   <Navabarmain/>
   <HeroMain/>
   <HeroGrandient/>
-  <SubHeroSection/>
+  {/* <SubHeroSection/> */}
   <AboutMeMain/>
   <SkillsMain/>
   <SubSkills/>

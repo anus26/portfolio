@@ -7,7 +7,7 @@ const ContactMeRight = () => {
     <div className='flex flex-col items-center justify-center gap-12'>
     <img src="/images/email-image (1).png" 
     alt="email image" 
-     className='max-w-[300px]'/>
+     className='lg:max-w-[300px] '/>
      <ContactInfo/>
      <ContactSocail/>
 </div>
