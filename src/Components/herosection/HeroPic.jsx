@@ -15,7 +15,7 @@ const HeroPic = () => {
              <img
         src="/images/12.png"
         alt="Anus Raza"
-        className="max-h-[390px] w-auto rounded-full"
+        className="max-h-[490px] w-auto rounded-xl"
       />
 
 <div className=" absolute -z-10 flex justify-center items-center animate-pulse ">

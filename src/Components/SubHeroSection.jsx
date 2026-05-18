@@ -4,25 +4,26 @@ const SubHeroSection = () => {
   return (
     <div
       className="
-      w-full
+  
+   w-full
       border-y border-lightGrey
       bg-brown
       text-lightGrey
       uppercase
       py-4 sm:py-5 md:py-6 lg:py-8
       overflow-hidden
-      sm:m-24
+       
     "
     >
 
       <div
         className="
-        w-full
+    
        
         flex flex-col sm:flex-row
         justify-center sm:justify-around
         items-center
-        gap-4 sm:gap-6 md:gap-10
+        gap-4 
         text-center
         px-4
         text-sm sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl

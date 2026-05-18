@@ -9,8 +9,9 @@ const ExperienceMain = () => {
     <div id='experience' className='w-full
 max-w-[1300px]
 sm:overflow-x-hidden
+xl:overflow-x-visible
 mx-auto
-sm:m-24
+
 px-4 sm:px-6 lg:px-8
  '>
       <motion.div

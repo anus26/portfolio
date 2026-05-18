@@ -12,9 +12,9 @@ justify-between
 w-full max-w-[1300px]
 sm:overflow-x-hidden
 mx-auto
-sm:m-24
+
 px-4 sm:px-6 lg:px-8
-gap-6 md:gap-10
+gap-10 md:gap-10
 ">
 
         {/* Hero Text */}
