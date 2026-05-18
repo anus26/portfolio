@@ -6,7 +6,7 @@ import { IoLocation } from "react-icons/io5";
 const ContactInfo = () => {
   return (
     <div className='flex flex-col gap-4 text-white'>
-<SingleInfo text="anusraza268@gmail.com" Image={MdOutlineMailLock}/>
+<SingleInfo text="anusdeveloper7@gmail.com" Image={MdOutlineMailLock}/>
 <SingleInfo text="0327-2286887" Image={FaPhoneAlt}/>
 <SingleInfo text="Pakistan ,karachi" Image={IoLocation}/>
     </div>
