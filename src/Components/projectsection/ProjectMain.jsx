@@ -55,13 +55,7 @@ const projects=[
     image:'/images/clipboard.png',
     link:'https://task-manger-dashboard.vercel.app/'
 },
-{
-    name:'B.MART',
-    year:'Sept 2026',
-    align:'right',
-    image:'/images/01.jpg',
-    link:'https://frontend-smv-ecom-iky2.vercel.app/'
-}
+
 ]
 
 const ProjectMain = () => {
