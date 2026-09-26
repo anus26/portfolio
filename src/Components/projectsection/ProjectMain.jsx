@@ -3,12 +3,22 @@ import ProjectText from './ProjectText.jsx'
 import SingleProject from './SingleProject.jsx'
 import {motion } from 'framer-motion'
 import { fadeIn } from '../../framerMotion/variants'
-const projects=[{
+const projects=[
+    {
     name:'B.MART',
-    year:'Sep 2026',
+    year:'Sept 2026',
+    align:'right',
+    image:'/images/01.jpg',
+    link:'https://frontend-smv-ecom-iky2.vercel.app/'
+}
+    ,
+    
+    {
+    name:'Bloging App',
+    year:'mar 2025',
     align:'right',
     image:'/images/website-img-1.jpg',
-    link:'https://frontend-smv-ecom-iky2.vercel.app'
+    link:'https://comment-react.vercel.app'
 },
 {
     name:'Saylani Beneficiaries',
@@ -46,11 +56,11 @@ const projects=[{
     link:'https://task-manger-dashboard.vercel.app/'
 },
 {
-    name:'ChatSolution',
-    year:'Jun 2025',
+    name:'B.MART',
+    year:'Sept 2026',
     align:'right',
-    image:'/images/website-img-1.jpg',
-    link:'https://chat-solution-xi.vercel.app'
+    image:'/images/01.jpg',
+    link:'https://frontend-smv-ecom-iky2.vercel.app/'
 }
 ]
 
