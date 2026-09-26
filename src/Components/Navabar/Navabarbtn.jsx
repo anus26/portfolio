@@ -4,7 +4,7 @@ import { FiArrowDownRight } from "react-icons/fi";
 const Navabarbtn = () => {
   return (
     <a
-      href="https://canva.link/pj5amgq31yudgw4"
+      href="https://canva.link/ynbm3y0adfom9nh"
       target="_blank"
       rel="noopener noreferrer"
     >
