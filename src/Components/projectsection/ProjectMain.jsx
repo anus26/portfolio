@@ -24,14 +24,14 @@ const projects=[
     name:'Saylani Beneficiaries',
     year:'April 2025',
     align:'right',
-    image:'/images/website-img-1.jpg',
+    image:'/images/benf.png',
     link:'https://vite-project-final.vercel.app'  
 },
 {
     name:'Sockitio-app',
     year:'May 2025',
     align:'right',
-    image:'/images/website-img-1.jpg',
+    image:'/images/chaht.jpg',
     link:'https://sockitio-app.vercel.app'
 },
 {
