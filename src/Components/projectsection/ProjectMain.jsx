@@ -4,11 +4,11 @@ import SingleProject from './SingleProject.jsx'
 import {motion } from 'framer-motion'
 import { fadeIn } from '../../framerMotion/variants'
 const projects=[{
-    name:'Bloging App',
-    year:'mar 2025',
+    name:'B.MART',
+    year:'Sep 2026',
     align:'right',
     image:'/images/website-img-1.jpg',
-    link:'https://comment-react.vercel.app'
+    link:'https://frontend-smv-ecom-iky2.vercel.app'
 },
 {
     name:'Saylani Beneficiaries',
